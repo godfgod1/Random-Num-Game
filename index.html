@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- 타이틀 -->
+    <h1>Random Number Game</h1>
+    <!-- 본문 -->
+    <div>
+      <h2 style="display: inline;">Genereate a number between 0 and</h2>
+      <input min="1" class="range" style="display: inline;" type="number" />
+    </div>
+    <form action="">
+      <h3 style="display: inline;">Guess the number:</h3>
+      <input min="1" class="inputNum" style="display: inline;" type="number" />
+      <input
+        class="button"
+        value="play!"
+        type="button"
+        style="width: 50px; height: 20px;"
+      />
+    </form>
+    <div class="start hidden">
+      <span>
+        You chose:
+      </span>
+      <span class="chosedNum"> </span>
+      <span>
+        , the machine chose:
+      </span>
+      <span class="randomNum"></span>
+
+      <span>
+        .
+      </span>
+      <h2 class="result">You lost!</h2>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
