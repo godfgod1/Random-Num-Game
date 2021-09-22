@@ -1,4 +1,41 @@
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 3px gray; 
+  color:#ecf0f1;
+  
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  flex-direction: column;
+}
+
+h1{
+  margin: 100px;
+}
+
+span{
+  font-size:2em;
+}
+
+form{
+  margin:50px;
+}
 .hidden {
     display: none;
   }
-  
+  h1{
+    font-size:4em;
+  }
+  h2{
+    font-size:2em;
+    text-align:center;
+  }
